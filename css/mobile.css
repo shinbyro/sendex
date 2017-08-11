@@ -1,0 +1,96 @@
+ /* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px){
+	#wrap {min-width:100% !important;font-size:13px !important}
+	#top {min-width:100% !important;height:auto !important;}
+	#top #txt_box {top:20%;left:50%;font-size:15px !important;height:75%;width:80% !important;margin-left:-40%;}
+	#top #txt_box p,
+	#top #txt_box div,
+	#top #txt_box ul {padding:0 !important;font-size:14px !important;letter-spacing:0;text-align:center;position:absolue;bottom:30px}
+	#top #txt_box span {font-size:17px}
+	#top #txt_box span:first-child {margin-left:-4px}
+	#top #txt_box #text1 {height:auto !important;text-align:center;font-size:22px !important;border-bottom:none !important}
+	#top #txt_box ul {position:absolute;bottom:0;width:100%}
+	#top #txt_box li {margin-right:0 !important;width:33.3%}
+	#top #txt_box li a {line-height:28px;font-size:14px !important;border:none;text-align:center;width:100%;height:auto;position:relative}
+	#top #txt_box li a:first-child {letter-spacing:-1px}
+	.m_l {display:block}
+	.m_b {display:block !important;position:absolute;left:0;font-weight:normal !important;font-size:12px !important}
+	#btn_top {width:30px;height:30px;background-size:26px;bottom:13px;right:13px}
+	#video {display:none}
+	#sns {top:13px;right:13px}
+	#sns li {margin-right:6px}
+	#sns li a {width:26px;height:26px;background-size:26px !important}
+	.button {width:100% !important;line-height:46px !important;height:48px !important;margin:20px 0 0 !important;font-size:15px !important}
+	.conts_wrap_txt {width:86%;margin:0 auto;padding:40px 0 50px}
+	.conts_wrap_photo {width:86%;margin:0 auto;padding:40px 0 50px}
+	#sendex_info img,
+	#sendex_info #img2 div {width:100%}
+	#sendex_items ul {width:100%;margin:20px auto 0}
+	#sendex_items ul li {float:none;margin:0;padding:6px 50px}
+	#sendex_items ul li div {width:100%;height:230px}
+	#sendex_items ul li p {line-height:48px;background:#222}
+	#sendex_items ul li p span {font-size:16px}
+	#sendex_items .detail_items span b {padding:15px 0 5px}
+	#sendex_info .list_h li {float:none;width:100%;margin-top:10px}
+	#sendex_info .list_h li:first-child {margin:0}
+	#map {width:100%;margin:0}
+	#map #map-canvas {width:100%;height:260px}
+	#map #map_info {margin-left:0 !important}
+	#visit ul {width:100%}
+	#stance li {padding:13px !important}
+	#stance li .stance_title {position:relative;width:100%;line-height:15px !important;border-right:none !important;padding-bottom:13px;border-bottom:1px solid rgb(235, 235, 235)}
+	#stance li .list_box {width:100%;padding-left:0}
+	#stance li .img_box {width:100%;padding-bottom:0 !important}
+	#stance li .img_box img {width:100%;margin:13px 0 8px}
+	#stance li .img_box span {display:none !important}
+	.m_dh {display:block;padding:0 4px;font-size:12px;font-weight:bold;color:#505050}
+	.table {width:100% !important;margin:0 0 20px !important}
+	.table td,
+	.table td:last-child {font-size:13px !important;padding:6px 10px !important}
+	.table td:first-child {width:70px !important}
+	.table.tbl3 td:first-child {width:70px !important}
+	#map #map_info {width:100%;margin-top:10px;height:auto}
+	.title1 em {margin-top:8px}
+	#footer {height:auto;min-width:auto}
+	#footer .footer_wrap {width:auto;padding:12px 20px 20px}
+	
+	
+	.title1 {font-size:18px;margin-bottom:15px;margin-left:-10px;background-size:20px 18px;padding:2px 0 0 24px}
+	.sub_title1 {font-size:13px !important;margin:0 auto 5px}
+	.sub_title1 span {font-size:16px !important}
+	.sub_title2 {font-size:14px;background-size:6px 11px !important;padding-left:10px !important}
+	.title2 {font-size:22px !important}
+	#sendex_info .list_h li .info_txt {height:auto;font-size:14px !important;padding:0}
+	.list {margin-top:36px !important}
+	.info_txt span {font-size:14px !important;padding-bottom:5px !important}
+	#detail_txt {font-size:11px !important;line-height:16px !important}
+	#footer .footer_wrap .f_title {padding:8px 13px 0 0;font-size:13px;background-size:18px;background-position:100% 0}
+	#footer .footer_wrap ul {margin-top:3px}
+	#footer .footer_wrap ul li {font-size:10px;letter-spacing:-1px}
+	
+	
+	#visual {padding:0 !important;height:224px !important}
+	.slider {width:76% !important;margin:0 auto !important;min-width:76% !important}
+	#photo a {height:210px !important}
+	#photo a img {width:100% !important}
+	.slick-slide a {border:none !important}
+	#photo a {border:hidden !important}
+	
+	#sendex_info .list_h {margin-top:0 !important}
+	#sendex_info .list_h li p {background-color:#fff !important}
+	#sendex_info .list_h li:last-child {margin-left:0 !important}
+	.f_l {margin-top:-10px !important}
+	.b_box {border:none !important}
+	.m_list {width:99%}
+	.m_list li {margin:10px 0 !important;box-shadow:rgba(0, 0, 0, 0.28) 2px 2px 2px 0px}
+	.m_list li:last-child {margin-bottom:0 !important}
+	.m_box {border:1px solid rgb(235, 235, 235) !important}
+	
+	#sendex_info ul {margin-top:20px !important}
+	.list,
+	.list_h {display:none !important}
+	.m_box p {margin:0 13px;border-bottom:1px solid rgb(235, 235, 235);padding:13px 0}
+	.m_box div {padding:13px !important;font-size:13px !important}
+}
