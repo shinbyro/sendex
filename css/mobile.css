@@ -1,7 +1,10 @@
  /* Smartphones (portrait and landscape) */
-@media only screen
+/* @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 1024px){
+and (max-device-width : 1024px){ */
+@media only screen
+and (min-width : 320px)
+and (max-width : 768px){
 	#wrap {min-width:100% !important;font-size:13px !important}
 	#top {min-width:100% !important;height:auto !important;}
 	#top #txt_box {top:20%;left:50%;font-size:15px !important;height:75%;width:80% !important;margin-left:-40%;}
@@ -9,12 +12,11 @@ and (max-device-width : 1024px){
 	#top #txt_box div,
 	#top #txt_box ul {padding:0 !important;font-size:14px !important;letter-spacing:0;text-align:center;position:absolue;bottom:30px}
 	#top #txt_box span {font-size:17px}
-	#top #txt_box span:first-child {margin-left:-4px}
 	#top #txt_box #text1 {height:auto !important;text-align:center;font-size:22px !important;border-bottom:none !important}
 	#top #txt_box ul {position:absolute;bottom:0;width:100%}
-	#top #txt_box li {margin-right:0 !important;width:33.3%}
-	#top #txt_box li a {line-height:28px;font-size:14px !important;border:none;text-align:center;width:100%;height:auto;position:relative}
-	#top #txt_box li a:first-child {letter-spacing:-1px}
+	#top #txt_box li {margin-right:0 !important;width:33.3%;position:relative}
+	#top #txt_box li a {line-height:28px;font-size:14px !important;border:none;text-align:center;width:100%;height:auto;position:relative;font-weight:bold}
+	#top #txt_box li:first-child a {letter-spacing:-1px}
 	.m_l {display:block}
 	.m_b {display:block !important;position:absolute;left:0;font-weight:normal !important;font-size:12px !important}
 	#btn_top {width:30px;height:30px;background-size:26px;bottom:13px;right:13px}
@@ -22,21 +24,21 @@ and (max-device-width : 1024px){
 	#sns {top:13px;right:13px}
 	#sns li {margin-right:6px}
 	#sns li a {width:26px;height:26px;background-size:26px !important}
-	.button {width:100% !important;line-height:46px !important;height:48px !important;margin:20px 0 0 !important;font-size:15px !important}
+	.button {width:100% !important;line-height:46px !important;height:48px !important;margin:20px 0 0 !important;font-size:15px !important;font-weight:bold}
 	.conts_wrap_txt {width:86%;margin:0 auto;padding:40px 0 50px}
 	.conts_wrap_photo {width:86%;margin:0 auto;padding:40px 0 50px}
 	#sendex_info img,
 	#sendex_info #img2 div {width:100%}
 	#sendex_items ul {width:100%;margin:20px auto 0}
 	#sendex_items ul li {float:none;margin:0;padding:6px 50px}
-	#sendex_items ul li div {width:100%;height:230px}
+	#sendex_items ul li div {width:100%;height:247px}
 	#sendex_items ul li p {line-height:48px;background:#222}
 	#sendex_items ul li p span {font-size:16px}
 	#sendex_items .detail_items span b {padding:15px 0 5px}
 	#sendex_info .list_h li {float:none;width:100%;margin-top:10px}
 	#sendex_info .list_h li:first-child {margin:0}
 	#map {width:100%;margin:0}
-	#map #map-canvas {width:100%;height:260px}
+	#map #map-canvas {width:100%;height:274px}
 	#map #map_info {margin-left:0 !important}
 	#visit ul {width:100%}
 	#stance li {padding:13px !important}
@@ -64,7 +66,7 @@ and (max-device-width : 1024px){
 	.title2 {font-size:22px !important}
 	#sendex_info .list_h li .info_txt {height:auto;font-size:14px !important;padding:0}
 	.list {margin-top:36px !important}
-	.info_txt span {font-size:14px !important;padding-bottom:5px !important}
+	.info_txt span {font-size:14px !important;padding-bottom:2px !important}
 	#detail_txt {font-size:11px !important;line-height:16px !important}
 	#footer .footer_wrap .f_title {padding:8px 13px 0 0;font-size:13px;background-size:18px;background-position:100% 0}
 	#footer .footer_wrap ul {margin-top:3px}
@@ -73,10 +75,9 @@ and (max-device-width : 1024px){
 	
 	#visual {padding:0 !important;height:224px !important}
 	.slider {width:76% !important;margin:0 auto !important;min-width:76% !important}
-	#photo a {height:210px !important}
+	#photo a {height:210px !important;border:hidden !important}
 	#photo a img {width:100% !important}
 	.slick-slide a {border:none !important}
-	#photo a {border:hidden !important}
 	
 	#sendex_info .list_h {margin-top:0 !important}
 	#sendex_info .list_h li p {background-color:#fff !important}
